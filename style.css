@@ -38,8 +38,11 @@ p{
 
 .principal{
     background-color: #EEEEEE;
-    width: 340px; /*largura*/
-    height: 501px; /*altura*/
+    
+    width: 70%; /*largura*/
+    max-width: 340px; /*largura máxima*/
+
+    min-height: 501px; /*altura*/
 
     margin-top: 30px;
     /*HACK para centralizar a div*/
